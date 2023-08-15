@@ -1,0 +1,30 @@
+html {
+  background-color: #efe;
+}
+
+header {
+  height: 30px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+aside {
+  position: fixed;
+  left: 0;
+  top: 30px;
+  bottom: 0;
+  width: 200px;
+  border-right: 1px solid black;
+  overflow-y: scroll;
+}
+aside .item {
+  height: 100px;
+  border-bottom: 1px solid black;
+}
+main {
+  padding-left: 200px;
+  height: 200vh;
+}
